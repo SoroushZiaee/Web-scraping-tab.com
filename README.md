@@ -2,6 +2,8 @@
 Create A Webscrapping Project for Football Matches
 
 1. First you need to create a virtual environment 
+
+
   a) if you don't have virtual env library first install
   ```
   pip install virtualenv
@@ -11,6 +13,8 @@ Create A Webscrapping Project for Football Matches
   python3 -m venv venv
   ```
 2. activate your venv
+
+
   a)for mac-user 
   ```
   source venv/bin/activate
