@@ -48,9 +48,13 @@ League name
 python3 main.py --nameleague 'spanish primera division' --verbose True
 ```
 
+<h3>
+  V2
+</h3>
 
-
-
+- on this version we add the previous record of each game
+- create a UI with pygame or pyqt4
+- use PhantomJS() instead chrome driver to make application faster
 
 
 
