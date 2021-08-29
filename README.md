@@ -37,6 +37,17 @@ pip install -r requirments.txt
 
 5. now you run the program
 
+League name
+- english premier league
+- french ligue 1
+- german bundesliga
+- italian serie a
+- spanish primera division
+
+```
+python3 main.py --nameleague 'spanish primera division' --verbose True
+```
+
 
 
 
