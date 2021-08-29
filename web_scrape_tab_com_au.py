@@ -12,7 +12,7 @@ class UrlData(object):
         'english premier league': 'https://www.tab.com.au/sports/betting/Soccer/competitions/English%20Premier%20League',
         'french ligue 1': 'https://www.tab.com.au/sports/betting/Soccer/competitions/French%20Ligue%201',
         'german bundesliga': 'https://www.tab.com.au/sports/betting/Soccer/competitions/German%20Bundesliga',
-        'italian serie A': 'https://www.tab.com.au/sports/betting/Soccer/competitions/Italian%20Serie%20A',
+        'italian serie a': 'https://www.tab.com.au/sports/betting/Soccer/competitions/Italian%20Serie%20A',
         'spanish primera division': 'https://www.tab.com.au/sports/betting/Soccer/competitions/Spanish%20Primera%20Division'
     }
 
@@ -27,7 +27,7 @@ class WebScrapping(object):
 
         if self._verbose:
             print('-Set The Driver')
-        self._set_up(self._urls[self._name_league])
+        self._set_up(self._urls[self._name_league.lower()])
 
     def _set_up(self, url, timeout=20, tag_name='match-name-text'):
         if self._verbose:
