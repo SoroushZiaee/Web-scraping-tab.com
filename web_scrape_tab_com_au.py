@@ -28,7 +28,6 @@ class WebScrapping(object):
         options.add_argument('headless')
         self._browser = webdriver.Chrome(self._driver_path, options=options)
 
-
         if self._verbose:
             print('-Set The Driver')
         self._set_up(self._urls[self._name_league.lower()])
@@ -81,6 +80,3 @@ class WebScrapping(object):
             if self._verbose:
                 print('-Save The Result of Matches')
             df.to_csv(path, sep=',', index=False)
-
-
-
