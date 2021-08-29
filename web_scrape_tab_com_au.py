@@ -24,6 +24,7 @@ class WebScrapping(object):
         self._driver_path = 'chromedriver_mac64/chromedriver'
         self._urls = UrlData().URL_DICT
         self._browser = webdriver.Chrome(self._driver_path)
+        # self._browser = webdriver.PhantomJS()
 
         if self._verbose:
             print('-Set The Driver')

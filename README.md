@@ -56,6 +56,15 @@ python3 main.py --nameleague 'spanish primera division' --verbose True
 - create a UI with pygame or pyqt4
 - use PhantomJS() instead chrome driver to make application faster
 
+for using PhantomJS headless browser you need to install the phantom driver first(It may take few while to install)
+
+```
+brew install phantomjs
+```
+
+There is a link below that show how to install brew
+
+<a href='https://brew.sh/'> Brew Installation </a>
 
 
 
