@@ -23,8 +23,11 @@ class WebScrapping(object):
         self._name_league = name_league
         self._driver_path = 'chromedriver_mac64/chromedriver'
         self._urls = UrlData().URL_DICT
-        self._browser = webdriver.Chrome(self._driver_path)
-        # self._browser = webdriver.PhantomJS()
+
+        options = webdriver.ChromeOptions()
+        options.add_argument('headless')
+        self._browser = webdriver.Chrome(self._driver_path, options=options)
+
 
         if self._verbose:
             print('-Set The Driver')
