@@ -79,9 +79,4 @@ class WebScrapping(object):
             df.to_csv(path, sep=',', index=False)
 
 
-name_league = 'spanish primera division'
-crawler = WebScrapping(name_league, verbose=True)
-crawler.crawl()
-
-
 
