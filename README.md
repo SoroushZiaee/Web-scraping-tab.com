@@ -68,9 +68,9 @@ League name
 - italian serie a -> (2020-2021, 2019-2020, 2018-2019, 2017-2018, 2016-2017)
 - spanish primera division -> (2020-2021, 2019-2020, 2018-2019, 2017-2018, 2016-2017)
 
-'''
+```
 python main.py --nameleague 'english premier league' --verbose True --history True --season '2020-2021'
-'''
+```
 
 
 
