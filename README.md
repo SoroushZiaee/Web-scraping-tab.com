@@ -52,10 +52,27 @@ python3 main.py --nameleague 'spanish primera division' --verbose True
   V2
 </h3>
 
-- on this version we add the previous record of each game
-- create a UI with pygame or pyqt4
-- use PhantomJS() instead chrome driver to make application faster (It's not Efficient)
-- Create a method to iterate over url and capture all data
+[X] on this version we add the previous record of each game
+[] create a UI with pygame or pyqt4
+[X] use PhantomJS() instead chrome driver to make application faster (It's not Efficient)
+[] Create a method to iterate over url and capture all data
+
+<h3>
+How Get Historical Data
+</h3>
+
+League name
+- english premier league -> (2020-2021, 2019-2020, 2018-2019, 2017-2018, 2016-2017)
+- french ligue 1 -> (2020-2021, 2019-2020, 2018-2019, 2017-2018, 2016-2017)v
+- german bundesliga -> (2020-2021, 2019-2020, 2018-2019, 2017-2018, 2016-2017)
+- italian serie a -> (2020-2021, 2019-2020, 2018-2019, 2017-2018, 2016-2017)
+- spanish primera division -> (2020-2021, 2019-2020, 2018-2019, 2017-2018, 2016-2017)
+
+'''
+python main.py --nameleague 'english premier league' --verbose True --history True --season '2020-2021'
+'''
+
+
 
 
 
