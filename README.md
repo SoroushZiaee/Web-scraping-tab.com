@@ -52,10 +52,10 @@ python3 main.py --nameleague 'spanish primera division' --verbose True
   V2
 </h3>
 
-[X] on this version we add the previous record of each game
-[] create a UI with pygame or pyqt4
-[X] use PhantomJS() instead chrome driver to make application faster (It's not Efficient)
-[] Create a method to iterate over url and capture all data
+- on this version we add the previous record of each game
+- create a UI with pygame or pyqt4
+- use PhantomJS() instead chrome driver to make application faster (It's not Efficient)
+- Create a method to iterate over url and capture all data
 
 <h3>
 How Get Historical Data
